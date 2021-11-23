@@ -1,7 +1,7 @@
 {
   "extensionDescription": {
-      "message": "Multi-Account Containers helps you keep all the parts of your online life contained in different tabs. Custom labels and color-coded tabs help keep different activities — like online shopping, travel planning, or checking work email — separate.",
-      "description": "Description of the extension. DO NOT TRANSLATE \"Multi-Account Containers\"."
+    "message": "Multi-Account Containers helps you keep all the parts of your online life contained in different tabs. Custom labels and color-coded tabs help keep different activities — like online shopping, travel planning, or checking work email — separate.",
+    "description": "Description of the extension. DO NOT TRANSLATE \"Multi-Account Containers\"."
   },
   "openInNewTabTitle": {
     "message": "Open New Tab in…",
@@ -27,10 +27,10 @@
     "message": "Always Open Site in Container"
   },
   "openANewTabIn": {
-    "message" : "Open a New Tab in…"
+    "message": "Open a New Tab in…"
   },
   "openNewTabInThisContainer": {
-    "message" : "Open New Tab in this Container"
+    "message": "Open New Tab in this Container"
   },
   "openTabs": {
     "message": "Open Tabs",
@@ -217,11 +217,17 @@
   "enableSync": {
     "message": "Enable sync"
   },
+  "ignoreContainers": {
+    "message": "Ignore containers"
+  },
   "enableBookMarkMenusDescription": {
     "message": "This setting allows you to open a bookmark or folder of bookmarks in a Container."
   },
   "enableSyncDescription": {
     "message": "This setting allows you to sync your Containers and site assignments across devices."
+  },
+  "ignoreContainersDescription": {
+    "message": "A comma-separated list of container names to ignore. Matching containers will not be shown in the MAC interface or automatically synced. You can use wildcards e.g. tmp*."
   },
   "replaceTab": {
     "message": "Replace tab instead of creating a new one"
@@ -236,7 +242,7 @@
     "message": "Container to open with Keyboard Shortcut $keyId$",
     "placeholders": {
       "keyId": {
-          "content": "$1"
+        "content": "$1"
       }
     }
   },
